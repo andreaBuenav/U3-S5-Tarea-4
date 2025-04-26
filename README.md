@@ -6,17 +6,17 @@ Aplicar los conceptos de HTML y CSS vistos en clase para desarrollar una página
 
 Crea una carpeta para tu proyecto. Dentro de esta carpeta, debes tener:
 
-Un archivo index.html.
+Un archivo  ```index.html ```.
 
-Una carpeta css/ donde guardarás tu archivo estilos.css.
+Una carpeta css/ donde guardarás tu archivo  ```estilos.css ```.
 
-El archivo index.html debe incluir:
+El archivo  ```index.html ``` debe incluir:
 
 Una estructura HTML válida (usa html:5 en VSCode para comenzar).
 
-Una barra de navegación (<nav>) con enlaces (aunque los enlaces no dirijan a páginas reales).
+Una barra de navegación  ```(<nav>) ``` con enlaces (aunque los enlaces no dirijan a páginas reales).
 
-Un encabezado principal (<h1>) con tu nombre o un título de bienvenida.
+Un encabezado principal  ```(<h1>)  ```con tu nombre o un título de bienvenida.
 
 Un párrafo de presentación.
 
@@ -38,7 +38,7 @@ Aplicar un estilo personalizado a los botones del formulario.
 
 Usar imágenes SVG descargadas de tablericons.com para agregar iconos en la navegación o el formulario.
 
-Utilizar la propiedad !important en al menos un estilo, explicando brevemente dónde y por qué lo utilizaste (puedes comentarlo en el CSS)
+Utilizar la propiedad  ```!important ``` en al menos un estilo, explicando brevemente dónde y por qué lo utilizaste (puedes comentarlo en el CSS)
 
 ## Entrega:
 En una carpeta comprimida colocar tu carpeta completa del proyecto, adicional en un PDF hacer capturas de pantalla de la página web. 
