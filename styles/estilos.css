@@ -35,6 +35,37 @@ html {
     display:block;
     width: auto;
   }
+
+  @media (max-width: 768px) {
+    .panel-principal {
+      flex-direction: row;
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  .barra-redes{
+    text-decoration: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+  }
+
+  .barra-redes a {
+    text-decoration: none; /* Quitar el subrayado */
+    color: inherit; /* Heredar el color del texto del padre si es necesario */
+    padding: 5px 10px; /* Añade espacio alrededor del texto para el fondo */
+    border-radius: 5px; /* Opcional: Bordes redondeados */
+  }
+  
+  .barra-redes a:hover {
+    background-color: #D2B48C; /* Color café claro para el fondo al hacer hover */
+    color: #8B4513; /* Opcional: Cambiar el color del texto al hacer hover */
+  }
   
  /* Estilo específico para la división vertical (borde inferior en el primer panel) */
 .panel-datos-personales {
@@ -74,3 +105,8 @@ html {
   .panel-experiencia th {
     background-color: #f2f2f2;
   }
+
+  .panel-experiencia tr:nth-child(even) {
+    background-color: #ccc;
+  }
+
