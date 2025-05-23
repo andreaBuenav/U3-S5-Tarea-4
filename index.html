@@ -9,19 +9,19 @@
 <body>
 
     <header>
-        <h1>Conoce más acerca de mi</h1>
+        <nav class="barra-redes">
+            <a href="contacto.html">Contacto</a>
+            <a href="linkedin.html">Linkedin</a>
+            <a href="proyectos.html">Portafolio</a>
+        </nav>
     </header>
-    
     <main>
+                <h1>Conoce más acerca de mi</h1>
         <section id="panel-datos">
         <div class="contenedor">
             <div class="panel-principal panel-datos-personales">
                 <h2 class="subtitulos">Datos Personales</h2>
-                <nav class="barra-redes">
-                    <a href="contacto.html">Contacto</a>
-                    <a href="linkedin.html">Linkedin</a>
-                    <a href="proyectos.html">Portafolio</a>
-                </nav>
+
         <p> ¡Hola! Mi nombre es Andrea Buenaventura Gutierrez
             Soy estudiante de la carrera de ingeniería de software 
             y actualmente me encuentro cursando mi 3er año.<br/>
@@ -38,108 +38,118 @@
             Esta experiencia me ha audado a obtener conocimientos en 
             los siguientes frameworks de automatización:
         </p>
-        <table>
-            <thead>
-              <tr>
-                <th>Framework/lenguaje </th>
-                <th> Tipo</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Selenium - Java</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Karate DSL- JS/TS</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Cypess - JS</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Appium java/Js</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Postman/Insomnia - API</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Playwright - JS/TS</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Playwright - JS/TS</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Cucumber - Java</td>
-                <td>Automatización</td>
-              </tr>
-              <tr>
-                <td>Css - HTML</td>
-                <td>Programación/ Estilos</td>
-              </tr>
-              <tr>
-                <td>Java</td>
-                <td>Programación</td>
-              </tr>
-              <tr>
-                <td>C#</td>
-                <td>Programación</td>
-              </tr>
+       <div class="slider-container-css-scroll">
+    <div class="slider-wrapper-css-scroll">
+        <div class="card">
+            <h3>Selenium - Java</h3>
+            <p>Tipo: Automatización</p>
+        </div>
 
-            </tbody>
-          </table>
+        <div class="card">
+            <h3>Karate DSL- JS/TS</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>Cypress - JS</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>Appium Java/Js</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>Postman/Insomnia - API</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>Playwright - JS/TS</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>Cucumber - Java</h3>
+            <p>Tipo: Automatización</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS - HTML</h3>
+            <p>Tipo: Programación/Estilos</p>
+        </div>
+
+        <div class="card">
+            <h3>Java</h3>
+            <p>Tipo: Programación</p>
+        </div>
+
+        <div class="card">
+            <h3>C#</h3>
+            <p>Tipo: Programación</p>
+        </div>
+
+    </div>
+</div>
+
     </div>
     <div class="panel-principal panel-datos-personales">
                 <h2 class="subtitulos">Cosultas específicas</h2>
-                <form>
+                <form class="form">
 
-                    <fieldset>
-                        <legend>Contáctame</legend>
-        
-                        <div>
-                            <label>Nombre completo 
-                            </label>
-                            <input type="text" placeholder="Ingese texto" /><br/><br/>
-                            <label>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                                    <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"></path>
-                                    <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"></path>
-                                  </svg>
-                            </label>
-                            <input type="email" placeholder="Ingese su correo" /><br/><br/>
-                        </div>
-                        <div>
-                            <label>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                                <path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z"></path>
-                              </svg>
-                            </label>
-                            <input type="tel" placeholder="Ingese su telefono"  /><br/><br/>
-                            <div>
-                                <label>País</label>
-                               <select>
-                                <option value="Ecuador">Ecuador</option>
-                                <option value="Otro">Otro</option>
-                               </select><br/><br/>
-                            </div>
-                            <button type="submit">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
-                                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                  <path d="M9 12l2 2l4 -4"></path>
-                                </svg>
-                              </button>
-                        </div>
-                       
-                    </fieldset>
-                </form>
+    <fieldset>
+        <legend>Contáctame</legend>
+
+        <div class="form-group">
+            <label>Nombre completo 
+            </label>
+            <input type="text" placeholder="Ingese texto" />
+        </div>
+        <div class="form-group">
+            <label>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"></path>
+                    <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"></path>
+                  </svg>
+            </label>
+            <input type="email" placeholder="Ingese su correo" />
+        </div>
+        <div class="form-group">
+            <label>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z"></path>
+              </svg>
+            </label>
+            <input type="tel" placeholder="Ingese su telefono"  />
+        </div>
+        <div class="form-group">
+            <label>País</label>
+            <select>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="form-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                  <path d="M9 12l2 2l4 -4"></path>
+                </svg>
+                Enviar
+            </button>
+        </div>
+    </fieldset>
+</form>
     </div>
         </div>
     </section>
     </main>
+    <footer class="footer">
+        <p>
+            Esta es una página ficticia, canales de información o consultas no son enviadas, la información acerca de mi experiencia sí es 100% verídica.
+        </p>
+        <p>&copy; 2025 Andrea Buenaventura Gutierrez</p>
+    </footer>
 </body>
 </html>
