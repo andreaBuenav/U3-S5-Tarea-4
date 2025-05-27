@@ -386,3 +386,20 @@ header {
 .form-btn svg {
   color: #fff;
 }
+
+@media (max-width: 480px) {
+  .form-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5em;
+  }
+  .form-group label {
+    min-width: unset;
+    justify-content: flex-start;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
